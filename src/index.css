@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://storage.needpix.com/rsynced_images/lilac-sidelight-background.jpg'); /* Путь к изображению */
+    background-size: cover; 
+    background-position: center; 
+    color: #211f1f; /* Цвет текста для контраста */
+  }
+  
+  
+  
+  /*Чтобы точек не было */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Для кнопок удалить*/
+    button {
+    background: #ff4d4d;
+  }
+  
+  button:hover {
+    background: #4cc709;
+  }
+  /* метки полей формы */
+  label {
+    display: block;
+     /*Внешние отступы сверху/снизу 10px, слева/справа 0 */
+    margin: 10px 0;
+  }
+  
+
+ /* Для кнопок добавить*/
+ button[type="submit"] {
+  background: #4CAF50;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background: #45a049;
+}
